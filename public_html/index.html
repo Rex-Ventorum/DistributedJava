@@ -10,19 +10,35 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/main.css" rel="stylesheet"/>
+
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-static-top">
-            <h1> Shopstuff Inc.</h1>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <h1> Shopstuff Inc: <small> You want stuff? We have stuff!</small></h1>
+
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Shopping Cart</a></li>
-                <li><input type="search"/></li>
-                <li><input type="button" value="Search"/>
+                <li>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="button" class="btn btn-default">Search</button>
+                    </form>
+                </li>
             </ul>
         </nav>
 
+        <p> Content</p>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Place sticky footer content here.</p>
+            </div>
+        </footer>
         <script src  ="js/jquery.min.js"></script> 
         <script src  ="js/bootstrap.min.js"></script>
     </body>
