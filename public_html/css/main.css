@@ -1,11 +1,11 @@
 html{
-    height:100%;
+    min-height:100%;
     margin:0;
 }
 
 body{
     height: 100%;
-    padding-top: 15%;
+    padding-top:140px;
     color: rgba(255,255,255,1);
     background: -webkit-linear-gradient(-90deg, rgba(60,100,160,1) 0, rgba(50,140,200,1) 50%, rgba(60,100,160,1) 100%);
     background: -moz-linear-gradient(180deg, rgba(60,100,160,1) 0, rgba(50,140,200,1) 50%, rgba(60,100,160,1) 100%);
@@ -28,10 +28,19 @@ nav > h1 {
 .footer{
     text-align: right;
     width:100%;
-    position:absolute;
-    bottom:0;
+    position:fixed;
+    bottom:0pt;
+    left: 0pt;
     color: rgba(255,255,255,1);
     background: -webkit-linear-gradient(-90deg, rgba(124,188,10,1) 0, rgba(210,244,146,1) 100%);
     background: -moz-linear-gradient(180deg, rgba(124,188,10,1) 0, rgba(210,244,146,1) 100%);
     background: linear-gradient(180deg, rgba(124,188,10,1) 0, rgba(210,244,146,1) 100%);
+    background-position: 0% 0%;
+    background-attachment: scroll;
+}
+
+.footer_contents {
+    height:24px;
+    width: 90%;
+    margin:auto;
 }
