@@ -2,3 +2,8 @@
     margin: 1%;
     background:#DDDDDD;
 }
+
+.body-contnet > nav{
+    text-align: center;
+    margin: 1%;
+}

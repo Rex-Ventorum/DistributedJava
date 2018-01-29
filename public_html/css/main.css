@@ -6,6 +6,7 @@ html{
 body{
     height: 100%;
     padding-top:140px;
+    padding-bottom: 40px;
     color: rgba(255,255,255,1);
     background: -webkit-linear-gradient(-90deg, rgba(60,100,160,1) 0, rgba(50,140,200,1) 50%, rgba(60,100,160,1) 100%);
     background: -moz-linear-gradient(180deg, rgba(60,100,160,1) 0, rgba(50,140,200,1) 50%, rgba(60,100,160,1) 100%);
